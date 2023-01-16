@@ -32,7 +32,7 @@ variable "server_port" {
 	default =8080
 }
 output "public_ip" {
-	value = aws_instance.example.public.ip
+	value = aws_instance.example.public_ip
 	description ="Publiczny adres IP servera WWW"
 
 }
